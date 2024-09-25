@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Kanit";
+    font-weight: 400;
+    font-style: normal;
+    src: url(./assets/kanit/Kanit-ExtraLight.ttf);
+  }
+
+  @font-face {
+    font-family: "Kanit";
+    font-weight: 600;
+    font-style: normal;
+    src: url(./assets/kanit/Kanit-Medium.ttf);
+  }
+  @font-face {
+    font-family: "Kanit";
+    font-weight: 800;
+    font-style: normal;
+    src: url(./assets/kanit/Kanit-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: "Mins";
+    font-weight: 400;
+    font-style: normal;
+    src: url(./assets/mins/MinSansTrial-Light.otf);
+  }
+  @font-face {
+    font-family: "Mins";
+    font-weight: 600;
+    font-style: normal;
+    src: url(./assets/mins/MinSansTrial-Regular.otf);
+  }
+  @font-face {
+    font-family: "Mins";
+    font-weight: 800;
+    font-style: normal;
+    src: url(./assets/mins/MinSansTrial-Medium.otf);
+  }
+}
+body {
+  @apply font-kanit text-gray-900 bg-white;
+}
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
